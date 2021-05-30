@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.1.0",
+  "description": "[![Actions Status](https://github.com/kotano/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kotano/frontend-project-lvl1/actions)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotano/frontend-project-lvl1.git"
+  },
+  "author": "kotano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotano/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/kotano/frontend-project-lvl1#readme"
+}
