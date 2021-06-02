@@ -19,5 +19,5 @@ export default function play(game, rule = '') {
       console.log(`Let's try again, ${username}`);
     }
   }
-  console.log(`Congratulations, ${username}`);
+  console.log(`Congratulations, ${username}!`);
 }
