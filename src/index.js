@@ -17,6 +17,7 @@ export default function play(game, rule = '') {
     } else {
       showWrongAnswer(userAnswer, correctAnswer);
       console.log(`Let's try again, ${username}`);
+      return;
     }
   }
   console.log(`Congratulations, ${username}!`);
