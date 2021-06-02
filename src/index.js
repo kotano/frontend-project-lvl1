@@ -16,7 +16,7 @@ export default function play(game, rule = '') {
       winStreak += 1;
     } else {
       showWrongAnswer(userAnswer, correctAnswer);
-      console.log(`Let's try again, ${username}`);
+      console.log(`Let's try again, ${username}!`);
       return;
     }
   }
