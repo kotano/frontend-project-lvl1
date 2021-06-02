@@ -8,10 +8,9 @@ const operations = [
 
 export default function brainCalc(maxNumber = 10) {
   // Choose random array from `operations`;
-  const randomOperation =
-    operations[Math.floor(Math.random() * operations.length)];
+  const operation = operations[Math.floor(Math.random() * operations.length)];
   // const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
-  const [operationSign, operationMethod] = randomOperation;
+  const [operationSign, operationMethod] = operation;
   const num1 = Math.round(Math.random() * maxNumber);
   const num2 = Math.round(Math.random() * maxNumber);
   const correctAnswer = operationMethod(num1, num2).toString();

@@ -11,7 +11,7 @@ env:
 
 extends:
   - 'airbnb-base'
-  - 'prettier' # put it last
+  # - 'prettier' # put it last
   # - 'plugin:jest/recommended'
 
 parserOptions:
